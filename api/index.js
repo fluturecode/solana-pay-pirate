@@ -169,12 +169,12 @@ async function prepareTx(ix) {
 
   tx.partialSign(payer);
 
-  tx = Transaction.from(
-    tx.serialize({
-      verifySignatures: false,
-      requireAllSignatures: false,
-    }),
-  );
+  // tx = Transaction.from(
+  //   tx.serialize({
+  //     verifySignatures: false,
+  //     requireAllSignatures: false,
+  //   }),
+  // );
     
   const serializedTx = tx.serialize({
     verifySignatures: false,
