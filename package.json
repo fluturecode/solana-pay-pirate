@@ -10,6 +10,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "ngrok": "^5.0.0-beta.2",
     "vercel": "^30.1.2"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.3.8",
+    "@solana/web3.js": "^1.77.3",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.1.4"
   }
 }
